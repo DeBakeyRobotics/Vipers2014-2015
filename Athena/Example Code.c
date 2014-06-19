@@ -23,8 +23,8 @@
 /////////////////////////////////////////////////////////////////////////////////////////
 void driveArcade(int y, int x)
 {
-	motor[leftFront] = motor[leftRear] = y - x;
-	motor[rightFront] = motor[rightRear] = y + x;
+	motor[frontleft] = motor[backleft] = y - x;
+	motor[frontright] = motor[backright] = y + x;
 }
 
 void pre_auton()
