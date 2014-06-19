@@ -90,6 +90,6 @@ motor[frontright]=0;
 
 if (abs(driveY) < 5) driveY = 0; // Deadband
 			if (abs(driveX) < 5) driveX = 0;
-	driveArcade(driveY, driveX);
+	driveArcade(driveY, -driveX);
 	}
 }
